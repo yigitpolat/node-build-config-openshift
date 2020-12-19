@@ -1,5 +1,5 @@
 # Use the official Node 10 image
-FROM node:10
+FROM registry.access.redhat.com/ubi8/nodejs-10
 
 # Change directory to /usr/src/app
 WORKDIR /usr/src/app
